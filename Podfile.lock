@@ -1,0 +1,18 @@
+PODS:
+  - tealium-swift (2.1.1):
+    - tealium-swift/TealiumFull (= 2.1.1)
+  - tealium-swift/TealiumFull (2.1.1)
+
+DEPENDENCIES:
+  - tealium-swift
+
+SPEC REPOS:
+  trunk:
+    - tealium-swift
+
+SPEC CHECKSUMS:
+  tealium-swift: 3a84e53361711d1ecc56ac98efa9fe9576d64c27
+
+PODFILE CHECKSUM: 4e9cc760e47eab31e1aa0f315d4bfd4193d3b77d
+
+COCOAPODS: 1.10.0

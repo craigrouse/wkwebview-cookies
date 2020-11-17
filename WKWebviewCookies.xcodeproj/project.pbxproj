@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91EF4A9F02E0B307D67BA45D /* Pods_WKWebviewCookies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640962158F903DF8248A7C4C /* Pods_WKWebviewCookies.framework */; };
+		CF37DF8F255C6E9D00CFC922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF37DF8E255C6E9D00CFC922 /* AppDelegate.swift */; };
+		CF37DF93255C6E9D00CFC922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF37DF92255C6E9D00CFC922 /* ViewController.swift */; };
+		CF37DF96255C6E9D00CFC922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF37DF94255C6E9D00CFC922 /* Main.storyboard */; };
+		CF37DF98255C6E9F00CFC922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF37DF97255C6E9F00CFC922 /* Assets.xcassets */; };
+		CF37DF9B255C6E9F00CFC922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF37DF99255C6E9F00CFC922 /* LaunchScreen.storyboard */; };
+		CF37DFA3255C6FA200CFC922 /* TealiumHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF37DFA2255C6FA200CFC922 /* TealiumHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A152E8B12551B3BA439C474 /* Pods-WKWebviewCookies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebviewCookies.debug.xcconfig"; path = "Target Support Files/Pods-WKWebviewCookies/Pods-WKWebviewCookies.debug.xcconfig"; sourceTree = "<group>"; };
+		640962158F903DF8248A7C4C /* Pods_WKWebviewCookies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKWebviewCookies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		946C6215A6D2A96EE9DC7AE1 /* Pods-WKWebviewCookies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebviewCookies.release.xcconfig"; path = "Target Support Files/Pods-WKWebviewCookies/Pods-WKWebviewCookies.release.xcconfig"; sourceTree = "<group>"; };
+		CF37DF8B255C6E9D00CFC922 /* WKWebviewCookies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebviewCookies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF37DF8E255C6E9D00CFC922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF37DF92255C6E9D00CFC922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF37DF95255C6E9D00CFC922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF37DF97255C6E9F00CFC922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF37DF9A255C6E9F00CFC922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF37DF9C255C6E9F00CFC922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF37DFA2255C6FA200CFC922 /* TealiumHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TealiumHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF37DF88255C6E9D00CFC922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EF4A9F02E0B307D67BA45D /* Pods_WKWebviewCookies.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		541807C3EF165A057D568210 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A152E8B12551B3BA439C474 /* Pods-WKWebviewCookies.debug.xcconfig */,
+				946C6215A6D2A96EE9DC7AE1 /* Pods-WKWebviewCookies.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF37DF82255C6E9D00CFC922 = {
+			isa = PBXGroup;
+			children = (
+				CF37DF8D255C6E9D00CFC922 /* WKWebviewCookies */,
+				CF37DF8C255C6E9D00CFC922 /* Products */,
+				541807C3EF165A057D568210 /* Pods */,
+				D1C380EC544CD1657F41C040 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF37DF8C255C6E9D00CFC922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF37DF8B255C6E9D00CFC922 /* WKWebviewCookies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF37DF8D255C6E9D00CFC922 /* WKWebviewCookies */ = {
+			isa = PBXGroup;
+			children = (
+				CF37DFA2255C6FA200CFC922 /* TealiumHelper.swift */,
+				CF37DF8E255C6E9D00CFC922 /* AppDelegate.swift */,
+				CF37DF92255C6E9D00CFC922 /* ViewController.swift */,
+				CF37DF94255C6E9D00CFC922 /* Main.storyboard */,
+				CF37DF97255C6E9F00CFC922 /* Assets.xcassets */,
+				CF37DF99255C6E9F00CFC922 /* LaunchScreen.storyboard */,
+				CF37DF9C255C6E9F00CFC922 /* Info.plist */,
+			);
+			path = WKWebviewCookies;
+			sourceTree = "<group>";
+		};
+		D1C380EC544CD1657F41C040 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				640962158F903DF8248A7C4C /* Pods_WKWebviewCookies.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF37DF8A255C6E9D00CFC922 /* WKWebviewCookies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF37DF9F255C6E9F00CFC922 /* Build configuration list for PBXNativeTarget "WKWebviewCookies" */;
+			buildPhases = (
+				943F09226B156BA7098FEFBC /* [CP] Check Pods Manifest.lock */,
+				CF37DF87255C6E9D00CFC922 /* Sources */,
+				CF37DF88255C6E9D00CFC922 /* Frameworks */,
+				CF37DF89255C6E9D00CFC922 /* Resources */,
+				E2786D67ECB0E039F603D1C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKWebviewCookies;
+			productName = WKWebviewCookies;
+			productReference = CF37DF8B255C6E9D00CFC922 /* WKWebviewCookies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF37DF83255C6E9D00CFC922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CF37DF8A255C6E9D00CFC922 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = CF37DF86255C6E9D00CFC922 /* Build configuration list for PBXProject "WKWebviewCookies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF37DF82255C6E9D00CFC922;
+			productRefGroup = CF37DF8C255C6E9D00CFC922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF37DF8A255C6E9D00CFC922 /* WKWebviewCookies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF37DF89255C6E9D00CFC922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF37DF9B255C6E9F00CFC922 /* LaunchScreen.storyboard in Resources */,
+				CF37DF98255C6E9F00CFC922 /* Assets.xcassets in Resources */,
+				CF37DF96255C6E9D00CFC922 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		943F09226B156BA7098FEFBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WKWebviewCookies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2786D67ECB0E039F603D1C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WKWebviewCookies/Pods-WKWebviewCookies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WKWebviewCookies/Pods-WKWebviewCookies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WKWebviewCookies/Pods-WKWebviewCookies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF37DF87255C6E9D00CFC922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF37DF93255C6E9D00CFC922 /* ViewController.swift in Sources */,
+				CF37DF8F255C6E9D00CFC922 /* AppDelegate.swift in Sources */,
+				CF37DFA3255C6FA200CFC922 /* TealiumHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF37DF94255C6E9D00CFC922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF37DF95255C6E9D00CFC922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF37DF99255C6E9F00CFC922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF37DF9A255C6E9F00CFC922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF37DF9D255C6E9F00CFC922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF37DF9E255C6E9F00CFC922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF37DFA0255C6E9F00CFC922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A152E8B12551B3BA439C474 /* Pods-WKWebviewCookies.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XC939GDC9P;
+				INFOPLIST_FILE = WKWebviewCookies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tealium.WKWebviewCookies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF37DFA1255C6E9F00CFC922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946C6215A6D2A96EE9DC7AE1 /* Pods-WKWebviewCookies.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XC939GDC9P;
+				INFOPLIST_FILE = WKWebviewCookies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tealium.WKWebviewCookies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF37DF86255C6E9D00CFC922 /* Build configuration list for PBXProject "WKWebviewCookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF37DF9D255C6E9F00CFC922 /* Debug */,
+				CF37DF9E255C6E9F00CFC922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF37DF9F255C6E9F00CFC922 /* Build configuration list for PBXNativeTarget "WKWebviewCookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF37DFA0255C6E9F00CFC922 /* Debug */,
+				CF37DFA1255C6E9F00CFC922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF37DF83255C6E9D00CFC922 /* Project object */;
+}
